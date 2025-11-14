@@ -1,6 +1,3 @@
-
-val lista: List[Double] =  List(2.0, 6.0)
-
 def myMethod(x: List[Double]): Double = {
   val prom: Double = x.sum/x.size
   val dif: List[Double] = x.map(x => x - prom)
@@ -8,5 +5,5 @@ def myMethod(x: List[Double]): Double = {
   val res: Double = Math.sqrt(sumcdr/x.size)
   res;
 }
-myMethod(lista)
+
 
